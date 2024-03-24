@@ -13,7 +13,6 @@ import Header from '@/components/Header';
 
 export default function RootLayout({ children }) {
 	const allDocuments = getDocuments();
-	console.log(allDocuments);
 	return (
 		<html lang="en">
 			<body className={inter.className}>
